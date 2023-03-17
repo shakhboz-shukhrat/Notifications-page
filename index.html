@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<head>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="stylesheet" href="sass.css">
+</head>
+<body>
+  <div class="container">
+    <div class="block">
+      <div class="sarlavha">
+        <p class="xabarlar">
+          Notifications
+        </p>
+        <div class="son-1">
+          <p class="son-2" id="son">
+            
+          </p>
+        </div>
+        <p class="read">
+          Mark all as read  
+        </p>
+      </div>
+
+      <div class="message active" id="mark">
+        <img src="./assets/images/avatar-mark-webber.webp" alt="mark" class="img">
+        <div class="">
+          <div class="flex">
+            <p class="xabar">
+              <span class="span-3">Mark Webber</span> <span class="span-1">reacted to your recent post</span> <span class="span-2">My first tournament today!</span>
+            </p>
+            <div class="unread" id="unread-mark"></div>  
+          </div>
+          <p class="time">
+            1m ago  
+          </p>  
+        </div>
+      </div>
+      <div class="text1 text">
+        <p class="text-2">
+          Ertaga futbol, boramizmi stadiondan ko'rishga!
+        </p>
+      </div>
+      <div class="message active" id="angela">
+        <img src="./assets/images/avatar-angela-gray.webp" alt="angela" class="img">
+        <div class="">
+          <div class="flex">
+            <p class="xabar">
+              <span class="span-3">Angela Gray</span> <span class="span-1">followed you</span>
+            </p>
+            <div class="unread" id="unread-angela"></div>  
+          </div>
+          <p class="time">
+            5m ago  
+          </p>  
+        </div>
+      </div>
+      <div class="text2 text">
+        <p class="text-2">
+          Futbolni ko'rdingmi, O'zbekiston Jahon chempionatiga chiqdi.
+        </p>
+      </div>
+      <div class="message active" id="jacob">
+        <img src="./assets/images/avatar-jacob-thompson.webp" alt="jacob" class="img">
+        <div class="">
+          <div class="flex">
+            <p class="xabar">
+              <span class="span-3">Jacob Thompson</span> <span class="span-1">has joined your group</span> <span class="span-2">Chess Club</span>
+            </p>
+            <div class="unread" id="unread-jacob"></div>  
+          </div>
+          <p class="time">
+            1 day ago  
+          </p>  
+        </div>
+      </div>
+      <div class="text3 text">
+        <p class="text-2">
+          Bugun Chess klubga kech qolmang, darsimiz 16:00 da.
+        </p>
+      </div>
+      <div class="message active" id="rizky">
+        <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="rizky" class="img">
+        <div class="">
+          <div class="flex">
+            <p class="xabar">
+              <span class="span-3">Rizky Hasanuddin</span> <span class="span-1">sent you a private message</span>
+            </p>
+            <div class="unread" id="unread-rizky"></div>  
+          </div>
+          <p class="time">
+            5 days ago
+          </p>  
+        </div>
+      </div>
+      <div class="text4 text">
+        <p class="text-2">
+          Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+          I'm already having lots of fun and improving my game.    
+        </p>
+      </div>
+      <div class="message active" id="kimberly">
+        <img src="./assets/images/avatar-kimberly-smith.webp" alt="kimberly" class="img">
+        <div class="">
+          <div class="flex">
+            <p class="xabar">
+              <span class="span-3">Kimberly Smith</span> <span class="span-1">commented on your picture</span>
+            </p>
+            <div class="unread" id="unread-kimberly"></div>  
+          </div>
+          <p class="time">
+            1 week ago
+          </p>  
+        </div>
+        <img src="./assets/images/image-chess.webp" alt="chess" class="chess">
+      </div>
+      <div class="text5 text">
+        <p class="text-2">
+          Rasmingiz chiroyli ekan.
+        </p>
+      </div>
+      <div class="message message-2 active" id="nathan">
+        <img src="./assets/images/avatar-nathan-peterson.webp" alt="nathan" class="img">
+        <div class="">
+            <p class="xabar">
+              <span class="span-3">Nathan Peterson</span> <span class="span-1">reacted to your recent post</span> <span class="span-2">5 end-game strategies to</span> 
+            </p>
+            <div class="flex">
+              <p class="span-2 xabar span-4">increase your win rate</p>
+              <div class="unread unread-2" id="unread-nathan"></div>    
+            </div>
+          <p class="time">
+            2 weeks ago
+          </p>  
+        </div>
+      </div>
+      <div class="text6 text">
+        <p class="text-2">
+          Dasturlashga qiziqasizmi?
+        </p>
+      </div>
+      <div class="message active" id="anna">
+        <img src="./assets/images/avatar-anna-kim.webp" alt="anna" class="img">
+        <div class="">
+          <div class="flex">
+            <p class="xabar">
+              <span class="span-3">Anna Kim</span> <span class="span-1">left the group</span> <span class="span-2">Chess Club</span>
+            </p>
+            <div class="unread" id="unread-anna"></div>  
+          </div>
+          <p class="time">
+            2 weeks ago
+          </p>  
+        </div>
+      </div>
+      <div class="text7 text">
+        <p class="text-2">
+          Tabriklaymiz, siz shaxmat chempionatida oliy o'rinni oldingiz!!!
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f7fafd;
+}
+
+.container {
+  width: 1440px;
+  height: auto;
+  background: #f7fafd;
+  display: flex;
+}
+
+.block {
+  margin-top: 63px;
+  margin-left: 355px;
+  width: 730px;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 0px 20px 60px rgba(73, 97, 168, 0.05);
+  border-radius: 15px;
+}
+
+.sarlavha {
+  display: flex;
+  margin-top: 33px;
+  margin-left: 32px;
+  margin-bottom: 23px;
+  width: 668px;
+  height: 30px;
+}
+
+.xabarlar {
+  width: 153px;
+  height: 30px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  color: #1c202b;
+}
+
+.son-1 {
+  width: 32px;
+  height: 25px;
+  margin-top: 3px;
+  margin-left: 11px;
+  background: #0a327b;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.son-2 {
+  width: 10px;
+  height: 20px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.read {
+  margin-top: 5px;
+  margin-left: 356px;
+  width: 116px;
+  height: 20px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #5e6778;
+}
+
+.message {
+  width: 670px;
+  height: 80px;
+  margin-top: 8px;
+  margin-left: 30px;
+  background: #f7fafd;
+  border-radius: 8px;
+  display: flex;
+}
+
+.message-2 {
+  height: 105px;
+}
+
+.img {
+  width: 45px;
+  height: 45px;
+  margin-top: 18px;
+  margin-left: 20px;
+}
+
+.xabar {
+  margin-top: 18px;
+  margin-left: 19px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1c202b;
+}
+
+.span-1 {
+  font-weight: 500;
+  color: #5e6778;
+}
+
+.span-2 {
+  color: #5e6778;
+}
+
+.span-4 {
+  margin-top: 9px;
+}
+
+.unread {
+  margin-top: 26px;
+  margin-left: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #f65552;
+}
+
+.unread-2 {
+  margin-top: 18px;
+}
+
+.flex {
+  display: flex;
+}
+
+.time {
+  margin-top: 3px;
+  margin-left: 19px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #939cad;
+}
+
+.chess {
+  width: 45px;
+  height: 45px;
+  margin-top: 18px;
+  margin-left: 182px;
+}
+
+.text {
+  width: 566px;
+  height: 97px;
+  margin-top: -5px;
+  margin-left: 114px;
+  background: #ffffff;
+  border: 1px solid #dde7ee;
+  border-radius: 5px;
+}
+
+.text-2 {
+  margin-top: 17px;
+  margin-left: 20px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5e6778;
+}
+
+.read:hover {
+  color: #0a327b;
+}
+
+.span-2:hover {
+  color: #0a327b;
+}
+
+.span-3:hover {
+  color: #0a327b;
+}
+
+.text:hover {
+  background: #e5effa;
+} /*# sourceMappingURL=sass.css.map */
